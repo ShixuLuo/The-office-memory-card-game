@@ -15,7 +15,7 @@ const characters: Map<string, string> = new Map([
 export function getCharacter(): string[] {
   let res: string[] = [];
 
-  characters.forEach((v, k) => {res.push(k)});
+  characters.forEach((_, k) => {res.push(k)});
   return res;
 }
 

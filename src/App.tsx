@@ -20,7 +20,7 @@ function App() {
     setBestScore(clicked.size);
   }
 
-  const handleClick = (name) => () => {
+  const handleClick = (name: string) => () => {
     if (clicked.has(name)) {
       setClicked(new Set());
     } else {
