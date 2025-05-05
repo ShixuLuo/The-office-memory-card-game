@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/the-office-memory-card-game/',
+  base: '/The-office-memory-card-game/',
   plugins: [
     react(),
     tailwindcss(),
